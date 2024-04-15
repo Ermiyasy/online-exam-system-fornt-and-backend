@@ -1,0 +1,47 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+}
+.ViewCource{
+    flex: 2;
+    height: 100%;
+}
+.AddCource{
+    flex: 1;
+}
+.tableContainer{
+    width: 1200px;
+    max-width: 1000px;
+    padding: 0px;
+    margin: 0px;
+}
+.css-1l046z0-MuiPaper-root{
+    margin: 24px;
+    padding: 20px;
+  }
+
+@media all and (max-width:1664px) {
+    .Main{
+        margin-top: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+    .ViewCource{
+        flex: 2;
+    }
+    .AddCource{
+        flex: 1;
+    }
+    .tableContainer{
+        margin: 0px;
+        width: 700px;
+        max-width: 900px;
+    }
+  
+  }

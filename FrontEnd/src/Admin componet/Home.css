@@ -1,0 +1,28 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+
+}
+.intregration-main{
+    display: flex;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.intregration-main-list{
+    flex-direction: row;
+    flex: 1;
+}
+
+
+.About{
+    margin-left: 300px;
+}
+.FeedBack{
+    margin-left: 300px;
+}
+.contactUs{
+    margin-left: 300px;
+}
+.About{
+    margin-left: 300px;
+}

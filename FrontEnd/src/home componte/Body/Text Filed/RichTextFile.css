@@ -1,0 +1,26 @@
+.word{
+  display: flex;
+  flex-direction: column;
+}
+.word-answer-title{
+    display: flex;
+    flex-direction: column;
+}
+.answer{
+  max-width: 100px;
+
+}
+.word-answer-title{
+  display: flex;
+  width: 900px;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.word-answer{
+  margin: 10px 25px;
+}
+.ExamWord{
+  margin: 10px;
+  padding: 25px;
+  max-height: 900px;
+}

@@ -1,0 +1,20 @@
+.home-main-list{
+    position: relative;
+    top: 55;
+    left: 25;
+    right: 25;
+    width: 1800px;
+    padding: 15px;
+    align-items: center;
+}
+@media all and (max-width:1664px) {
+  .home-main-list{
+    position: relative;
+    top: 65;
+    left: 25;
+    right: 25;
+    width: 1800px;
+    align-items: center;
+  }
+  
+  }

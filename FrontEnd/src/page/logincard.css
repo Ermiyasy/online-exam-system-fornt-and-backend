@@ -1,0 +1,103 @@
+body {
+
+    margin: 0;
+    font-family: 'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI',  'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+     sans-serif;
+    -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   align-items: center;
+ }
+ 
+ code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+     monospace;
+ }
+ .login-card{
+   align-items: center;
+   display: flex;
+   border: 1px solid hsl(0, 0%, 80%);
+   text-align: center;
+   box-shadow: 5px 7px 5px hsla(0, 0%, 1%, 0.70);
+   padding : 30px 50px;
+   width: 850px;
+   border-radius: 10px;
+   margin-left: 550px;
+   margin-bottom: 81px;
+   margin-top: 150px;
+   display: inline-block;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 55px;
+ }
+ @media all and (max-width:1664px) {
+  .login-card{
+     align-items: center;
+     display: flex;
+     border: 1px solid hsl(0, 0%, 80%);
+     text-align: center;
+     box-shadow: 5px 7px 5px hsla(0, 0%, 1%, 0.70);
+     padding : 25px 30px;
+     width: 650px;
+     border-radius: 10px;
+     margin-left: 25%;
+     margin-bottom : 81px;
+     margin-top: 100px;
+     display: inline-block;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .card-image{
+  width: 550px;
+  height: 80px;
+  border-radius: 0px;
+}
+.login-input input{
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+
+}
+
+}
+ .card-image{
+   width: 550px;
+   height: 180px;
+   border-radius: 10px;
+   
+ }
+ 
+ .card-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-top: -140px;
+   color: #fff;
+   text-shadow: 5px 1px  rgb(144, 162, 212) ;
+   font-size: 30px;
+ }
+ .label-text{
+   padding:30px;
+   margin-top: 50px;
+ }
+ .login-input{
+    margin-top:110px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+ 
+ }
+ .login-input input{
+   padding: 5px 15px;
+   margin: 5px;
+   border-radius: 3px;
+ 
+ }
+ .login-input button{
+   margin: 5px;
+   padding: 10px 20px;
+   background-color:hsl(199, 98%, 48%); 
+   border-radius: 10px;
+   border: none;
+   color: #fff;
+ }
+ .login-input button:hover{
+   box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.274);
+ }

@@ -1,0 +1,19 @@
+.main-Exam{
+    display: flex;
+    flex-direction: row;
+    margin-top : 16px ;
+}
+.Exam{
+    flex: 1;
+    margin: 15px;
+}
+.ExamWord{
+    flex: 2;
+}
+.word{
+    margin-right: 20px;
+}
+.que{
+    display: flex;
+    flex-direction: row;
+}

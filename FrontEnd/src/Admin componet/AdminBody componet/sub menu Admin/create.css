@@ -1,0 +1,55 @@
+.main{
+    
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.title-create{
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+.body{
+    flex: 1;
+    padding: 10px;
+} 
+.createlist{
+    text-align: left;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.createlabel-text{
+  padding:30px;
+  margin-top: 50px;
+}
+.create-input{
+   margin-top:10px;
+   padding: 10px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+
+}
+.create-input input{
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 3px;
+
+}
+.create-input button{
+  margin: 5px;
+  padding: 10px 20px;
+  background-color:hsl(199, 94%, 55%); 
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.create-input button:hover{
+  box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.274);
+}

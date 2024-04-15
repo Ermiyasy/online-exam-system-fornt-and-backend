@@ -1,0 +1,39 @@
+.home-main-list{
+    position: relative;
+    top: 25;
+    left: 55;
+    right: 25;
+    max-width: 800px;
+    margin-left: 650px;
+    align-items: center;
+}
+.card{
+  position: absolute;
+  top: 66px;
+  left: 10px;
+  right: 0px;
+}
+@media all and (max-width:1664px) {
+  .home-main-list{
+    position: relative;
+    top: 25;
+    left: 55;
+    right: 25;
+    max-width: 800px;
+    margin-left: 450px;
+    align-items: center;
+  }
+  
+  }
+  .icon{
+    display: inline;
+    padding-left: 1px;
+    padding-right: 15px;
+    padding-top: 15px;
+  }
+  
+  .title-icon{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }

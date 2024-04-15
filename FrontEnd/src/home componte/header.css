@@ -1,0 +1,53 @@
+.div1{
+  left: 0;
+  right: 0px;
+  position: relative;
+  background-color:hsl(199, 98%, 48%);
+  max-height: 60px;
+  border-radius: 5px;
+ margin-bottom: 50px;
+  margin-top: 4px;
+    padding: 10px 120px;
+    display: flex;
+
+
+  }
+  .divf{
+    position: fixed;
+    bottom: 0px;
+    max-height: 40px;
+    left: 0;
+    right: 0px;
+    padding: 2px 200px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color:hsl(199, 98%, 48%);
+    height: 75px;
+  }
+  .titleh{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 550px;
+  }
+  .titlef{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+  }
+  .title{
+    flex: 1;
+
+  }
+
+  .menulist{
+    flex: 1;
+
+  }

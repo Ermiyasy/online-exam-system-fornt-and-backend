@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --mainColor: rgb(0, 0, 0);
+    --mainColorLigther: rgb(65, 65, 65);
+    --seconderColor: rgb(36, 35, 95);
+    --textColor: rgb(255, 255, 255);
+}
+.Side{ 
+    display: flex; 
+    flex-direction: column; 
+    position: absolute; 
+    top: 78px; 
+    left: 0px; 
+    bottom: 50px; 
+    margin-bottom: 20px; 
+    box-shadow: 5px,5px hsla(0, 0%, 0%, 0.63); 
+    padding: 20px; 
+} 
+.header-title{ 
+    font-weight: 400; 
+    font-size: 25px; 
+} 
+.list{ 
+    align-items: left; 
+    max-width: 200px; 
+} 
+.list ul{ 
+  
+    list-style: none; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin-right: 25px; 
+} 
+.list ul li :hover{ 
+    background-color:hsl(199, 98%, 48%); 
+    color:#fff; 
+    padding: 2px 10px; 
+    list-style: none; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin-right: 25px; 
+} 
+.list ul li{ 
+    text-align: left; 
+    text-decoration: none; 
+    margin-top: 15px; 
+    padding: 0px; 
+} 
+.list-title{ 
+    text-decoration: none; 
+    color: blue; 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    height: 80px;
+    padding: 0,2rem;
+    background-color: var(--mainColor);
+    color: var(--seconderColor);
+
+}
+nav a{
+    margin: 0 2rem;
+    font-size: 15px;
+    color: var(--textColor);
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: var(--seconderColor);
+
+}
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background:transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+nav .nav-close-btn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+}
+nav a{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width:1024px) {
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: 150;
+        right: 150;
+        height: 100%;
+        max-width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:1.5rem;
+        background-color: var(--mainColor);
+        transition: 0.8s;
+        transform: translateY(-100vh);
+    }
+    .header nav a{
+        display: flex;
+        top: 0;
+        left: 150;
+        right: 150;
+        height: 100%;
+    }
+    header .responsive_nav{
+        transform: none;
+    }
+    
+}

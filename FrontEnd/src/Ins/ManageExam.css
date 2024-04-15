@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.submin{
+    margin-left: 2%;
+   
+    flex: 1;
+}
+.submax{
+  
+  margin-right: 2%;
+    flex: 2;
+}
